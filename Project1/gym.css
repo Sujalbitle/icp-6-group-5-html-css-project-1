@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(24, 22, 22);
+    background-image: url(/images/https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    
+}
+.home-img img{
+     opacity: 1;
+}
+.img-icon{
+    height: 120px;
+    width: 120px;
+    margin-left: 60px;
+}
+/* .navbar-brand{
+  margin-left: 70px;
+  margin-top: 40px;
+  
+} */
+.brand-name{
+    font-size:100px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.menu-container{
+    margin-left: 2000px;
+    font-size: 45px;
+}
+.menu{
+    color:white;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-right: 70px;
+    cursor: pointer;
+    padding: 30px 30px;
+    transition: 0.5s;
+}
+.menu:hover{
+    color: red;
+    font-size: 65px;
+}
+.header-container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container h1{
+    font-size: 200px;
+    color: red;
+    margin-top: 450px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.header-container p{
+    font-size: 100px;
+    margin-bottom:1200px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin:100px;
+    padding:50px;
+    
+}
+ button{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 40px;
+    margin-left: 2300px;
+    color:white;
+    background-color: red;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    font-size: 90px;
+    border: 2px solid black;
+}
